@@ -112,80 +112,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &80095826
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8051487931196327172, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_Name
-      value: Textured Ball
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327174, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 445e9082fa4c2d346be49ceaeddd9d96, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 792b7ddd10f72044fb3821412dcde5ac, type: 3}
 --- !u!1 &302491717
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,11 +192,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blue Ball
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327172, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
         type: 3}
@@ -507,6 +428,80 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1054733610
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8051487931196327172, guid: 792b7ddd10f72044fb3821412dcde5ac,
+        type: 3}
+      propertyPath: m_Name
+      value: Textured Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051487931196327174, guid: 792b7ddd10f72044fb3821412dcde5ac,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 445e9082fa4c2d346be49ceaeddd9d96, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 792b7ddd10f72044fb3821412dcde5ac, type: 3}
 --- !u!1001 &1574961304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -518,11 +513,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Black Ball
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327172, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
         type: 3}
@@ -598,11 +588,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Green Ball
       objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327172, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacles
-      objectReference: {fileID: 0}
     - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -677,11 +662,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Ball
       objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327172, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacles
-      objectReference: {fileID: 0}
     - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -755,11 +735,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Red Ball
-      objectReference: {fileID: 0}
-    - target: {fileID: 8051487931196327172, guid: 792b7ddd10f72044fb3821412dcde5ac,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 8051487931196327192, guid: 792b7ddd10f72044fb3821412dcde5ac,
         type: 3}
