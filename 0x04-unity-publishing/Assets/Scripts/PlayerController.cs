@@ -6,15 +6,24 @@ using System.Collections;
 ///<summary>Handles player control</summary>
 public class PlayerController : MonoBehaviour
 {
+    //<summary>Health value.</summary>
     private int health = 5;
+    //<summary>Score value.</summary>
     private int score = 0;
+    ///<summary>Player collision box.</summary>
     public Rigidbody body;
+    ///<summary>Player speed.</summary>
     public float speed = 750;
+    ///<summary>Text for score display.</summary>
     public Text scoreText;
+    ///<summary>Text for health display.</summary>
     public Text healthText;
+    ///<summary>Text for end of game display.</summary>
     public Text winLoseT;
+    ///<summary>Background for end of game display.</summary>
     public Image winLoseB;
 
+    ///<summary>FixedUpdate function.</summary>
     void FixedUpdate()
     {
         if (Input.GetKey("w"))
@@ -35,6 +44,7 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+    ///<summary>Collision actions functions.</summary>
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Pickup")
@@ -60,6 +70,7 @@ public class PlayerController : MonoBehaviour
             //Debug.Log ("You win!");
         }
     }
+    ///<summary>Update function.</summary>
     void Update()
     {
         if (health <= 0)
@@ -75,14 +86,17 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene("Menu", LoadSceneMode.Single);
         }
     }
+    ///<summary>Updates score display.</summary>
     void SetScoreText()
     {
         scoreText.text = "Score: " + score.ToString();
     }
+    ///<summary>Updates health display.</summary>
     void SetHealthText()
     {
         healthText.text = "Health: " + health.ToString();
     }
+    ///<summary>Controls game reloading.</summary>
     IEnumerator LoadScene(float seconds)
     {
         yield return new WaitForSeconds(3);
