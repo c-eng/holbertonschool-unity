@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///<summary>Triggers a timer</summary>
 public class TimerTrigger : MonoBehaviour
 {
     void OnTriggerExit(Collider other)

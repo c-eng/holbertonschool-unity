@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+///<summary>Stops a timer</summary>
 public class WinTrigger : MonoBehaviour
 {
     public Text timerText;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+///<summary>Counts up a timer.</summary>
 public class Timer : MonoBehaviour
 {
     public Text timerText;
