@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1168369007648731717}
   - component: {fileID: 1168369007648731716}
   m_Layer: 5
-  m_Name: ResumeText
+  m_Name: MenuText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -647,7 +647,7 @@ GameObject:
   - component: {fileID: 7598539383446450846}
   - component: {fileID: 1199025339370529659}
   m_Layer: 5
-  m_Name: ResumeText
+  m_Name: NextText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
