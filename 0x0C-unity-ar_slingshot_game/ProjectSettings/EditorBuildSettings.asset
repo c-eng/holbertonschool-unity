@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ARSlingshotGame.unity
+    guid: 0b6c3e3c66b53f546b357f0aac6dc7e5
+  m_configObjects:
+    com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: 83cb55d0a0f2b0449b977b008ce89ae5,
+      type: 2}
+    com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: ff0f8eaeeacb32a479830920d10822a5,
+      type: 2}
+    com.unity.xr.management.arcore_loader: {fileID: 11400000, guid: 94058594931734d4f811b20e797f67d1,
+      type: 2}
+    com.unity.xr.management.arkit_loader: {fileID: 11400000, guid: 66a0bdd21816c0a4fa759a6b22f16428,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bde72b8eb0862784db06637a1481be45,
+      type: 2}
